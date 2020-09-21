@@ -237,6 +237,8 @@ nav {
 
 #why-hr-work {
   background-image: url('../img/why-hr-work-image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
   padding: 4.5rem 0;
   margin: 2rem 0;
