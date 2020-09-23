@@ -29,9 +29,24 @@
 }());
 
 
-$(function () {
-  $(document).scroll(function () {
-    var $nav = $(".navbar-fixed-top");
-    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-  });
-});
+// $(function () {
+//   $(document).scroll(function () {
+//     var $nav = $(".navbar-fixed-top");
+//     $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+//   });
+// });
+
+// (function navbarScrollLogic () {
+
+//   const navbar = document.getElementById('nav-bar')
+//   console.log(1);
+
+//   window.addEventListener('scroll', function () {
+//     console.log(2);
+//     const didScrollPast = document.scrollTop > navbar.offsetHeight
+//     navbar.classList.toggle('scrolled', didScrollPast)
+//     console.log(3);
+//   })
+
+//   console.log(4);
+// }())
